@@ -54,3 +54,14 @@ print(np.zeros(np.array([[1, 2, 3]]).shape[1]))
 print('\n')
 
 print(np.zeros((10, 10)))
+
+
+# For issue with matplotlib with python 3
+
+# Instead of:
+# from matplotlib import pyplot as plt
+#
+# Use:
+# import matplotlib
+# matplotlib.use('TkAgg')
+# import matplotlib.pyplot as plt
