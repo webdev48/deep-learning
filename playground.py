@@ -65,3 +65,8 @@ print(np.zeros((10, 10)))
 # import matplotlib
 # matplotlib.use('TkAgg')
 # import matplotlib.pyplot as plt
+
+# Single and double divide
+
+print(10/3)
+print(10//3)
